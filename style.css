@@ -122,5 +122,15 @@ footer {
    margin-bottom: 14px;
  }
  
+/*서브페이지*/
 
+#project1{
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen & (max-width: 768px) {
+
+}
   
