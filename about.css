@@ -1,4 +1,3 @@
-/* style.css */
 * {
     margin: 0; padding: 0;
     box-sizing: border-box;
@@ -30,6 +29,7 @@
   #main_header h1 {
     position: absolute;
     top: 14px;
+    padding-left: 100px;
   }
   #main_header h1 > a { 
     color: #FFF6F9; 
@@ -61,40 +61,45 @@
   #maimvisual {
     width: 100%;
     height: 100vh;
-    background: url(./imgaes/mainv.jpg);
+    background: url(./imgaes/pexels-photo-7034390.jpg);
     background-size: cover;
     background-position: center;
   }
 
-  #portfolio .container {
+  #about .container {
     padding-top : 100px;
     padding-bottom: 100px;
+    color: #585556;
 }
 
-#portfolio .container a {
+#about .container a {
     font-size : 30px;
     color : #D88DA5;
     text-align: center;
 }
-#portfolio h2{
-    font-size : 22px;
+
+#about h1{
+    font-size : 35px;
     color : #D88DA5;
     text-align: center;
+    padding-bottom: 20px;
 }
 
-.list li {
-    overflow : hidden;
-    margin : 10px;
-    /* outline : 1px solid green; */
+#about .maintext{
+    font-size: 22px;
+    color: #585556;
+    text-align: left;
 }
 
-.list img {
-    /* width: 100%; */
-    display: inline-block;
+#about .profile {
+    padding-top: 20px;
+    padding-bottom: 20px;
+} 
+
+#about .skilimg {
+    margin-top: 20px;
 }
-.list li:hover img{
-  opacity:0.2;
-}
+
 
 footer {
   width: 100%;
@@ -122,5 +127,3 @@ footer {
    margin-bottom: 14px;
  }
  
-
-  
