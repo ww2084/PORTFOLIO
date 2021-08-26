@@ -41,7 +41,7 @@
     right: 0; top: 25px;
   }
   
-  #gnb a { color: #585556; }
+  #gnb a { color: #FFF6F9; }
   
   #gnb > ul > li {
     float: left;
@@ -55,7 +55,7 @@
   }
   
   #gnb > ul > li > a:hover {
-    border-bottom: 4px solid #FA1460;
+    border-bottom: 4px solid #FFF6F9;
   }
 
   #maimvisual {
@@ -87,7 +87,7 @@
 
 #about .maintext{
     font-size: 22px;
-    color: #585556;
+    color: #FFF6F9;
     text-align: left;
 }
 
@@ -107,14 +107,14 @@ footer {
   height: 200px;
   z-index: 999;
   margin-top: 125px;
-  color: #ffff;
+  color: #FFF6F9;
 }
 
 #contact .text {
   margin-left: 70px;
 }
 
-#contact a { color: #585556; }
+#contact a { color: ##FFF6F9; }
 
 #contact .text h2 {
   font-size: 35px;
@@ -123,7 +123,7 @@ footer {
  }
 
  #contact  ul  li {
-   color: #585556;
+   color:#FFF6F9;
    margin-bottom: 14px;
  }
  
